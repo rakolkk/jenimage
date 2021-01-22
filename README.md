@@ -5,6 +5,8 @@ python flask app to docker container image with redis db
 to run ex commands
 
 docker build -t newapp:0.1 .
+
+
 docker images
 
 #make sure --name & --link must be same because it is used in code
