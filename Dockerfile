@@ -1,7 +1,5 @@
 FROM python:3.7-alpine
 
-MAINTAINER PAVAN WANKHADE
-
 WORKDIR /code
 
 ENV FLASK_APP=app.py
